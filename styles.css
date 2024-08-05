@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: lightblue;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid gray;
+}
+
+main {
+  padding: 12px;
+  text-align: center;
+  margin-top: 12px;
+  height: 100vh;
+}
+
+img {
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 12px;
+  text-align: center;
+}
